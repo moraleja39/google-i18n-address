@@ -3,3 +3,4 @@ src/data-bundles
 src/data-index.js
 dist
 dist-esm
+.idea

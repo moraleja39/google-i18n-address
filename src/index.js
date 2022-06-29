@@ -162,7 +162,7 @@ function* reFindIter(regex, string) {
     }
 }
 
-async function getValidationRules(address) {
+async function getValidationRules(address, defaultLocaleOnly = false) {
     const countryCode = (address.countryCode || '').toUpperCase();
     const [countryData, database] = await loadCountryData(countryCode);
     const countryName = countryData.name || '';
@@ -184,6 +184,9 @@ async function getValidationRules(address) {
     let languages = [null];
     if ('languages' in countryData) {
         languages = countryData.languages.split(/~/g);
+    }
+    if (defaultLocaleOnly) {
+        languages = [countryData.lang]
     }
 
     const postalCodeMatchers = [];
