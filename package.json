@@ -1,5 +1,5 @@
 {
-  "name": "@cpsdqs/google-i18n-address",
+  "name": "@moraleja39/google-i18n-address",
   "version": "1.0.3",
   "description": "Address validation helpers for Google’s i18n address database",
   "main": "dist/index.js",
@@ -15,18 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cpsdqs/google-i18n-address.git"
+    "url": "git+https://github.com/moraleja39/google-i18n-address.git"
   },
-  "contributors": [
-    "Mirumee Software",
-    "cpsdqs <cpsdqs@gmail.com>",
-    "miestasmia <mia@miestasmia.com>"
-  ],
   "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/cpsdqs/google-i18n-address/issues"
-  },
-  "homepage": "https://github.com/cpsdqs/google-i18n-address#readme",
+  "homepage": "https://github.com/moraleja39/google-i18n-address#readme",
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
